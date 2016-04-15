@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  div(ng-app="testMap" ng-controller="testMapCtrl")
+    div(kendo-map="" k-options="mapOptions")
